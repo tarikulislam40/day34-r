@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fix-width{
+    width: 1270px;
+    margin: auto;
+}
+.clear::after{
+   content: "";
+   display: block;
+   clear: both;
+}
+.center{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/*start main css*/
+.header-scetion{
+    background: rgb(240, 231, 183);
+}
+.header-left{
+    width: 30%;
+}
+.header-right{
+    width: 70%;
+}
+.header-left img{
+    width: 150px;
+}
+.header-right{}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 70px;
+    color: #fff;
+    border-right: 1px solid #ddd;
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    background: coral;
+}
+.header-right ul li:nth-child(1) a{
+    border-left: 1px solid #ddd;
+}
+/*slider scetion*/
+.slider-scetion{
+    background: url(./img5/intro-bg.jpg) center center no-repeat;
+    height: 80vh;
+    background-size: cover;
+}
+.slider-item{
+    padding: 200px;
+}
+.slider-item h2{
+    color: #3498db;
+    margin-bottom: 20px;
+}
+.slider-item h1{
+    color: #3498db;
+}
+/*about scetion*/
+.about-scetion{
+    padding: 60px;
+}
+.about-left{
+    width: 40%;
+}
+.about-right{
+    width: 60%;
+}
+.about-left img{
+    width: 250px;
+}
+.about-right h1{}
+.about-right h3{
+    padding: 20px 0;
+}
+.about-right p{
+    font-size: 18px;
+    line-height: 2rem;
+}
+/*service scetion*/
+.service-scetion{
+    padding: 60px;
+    background: rgb(218, 213, 198);
+}
+.service-left{
+    border: 2px dotted rgb(252, 253, 250);
+    padding: 40px;
+    border-radius: 50px 0 50px 0;
+}
+.service-left{
+    width: 31%;
+    margin-right: 2%;
+}
+.service-left h1{
+    margin-bottom: 20px;
+}
+.service-left span{
+    font-size: 30px;
+    color: #3498db;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #3498db;
+    display: inline-block;
+    border-radius: 15px 0 15px 0;
+    margin-bottom: 15px;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-left p{
+    color: #fff;
+    font-size: 18px;
+}
+.footer-right{
+    width: 50%;
+}
+.footer{
+    background: grey;
+      padding: 20px 0;
+}
+.footer-right ul{
+    text-align: right;
+}
+.footer-right ul li{
+    display: inline-block;
+}
+.footer-right ul li a{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+}
